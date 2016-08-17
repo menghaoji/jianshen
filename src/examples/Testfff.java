@@ -22,6 +22,21 @@ public class Testfff {
                 robot.mousePress(InputEvent.BUTTON1_MASK);
                 robot.delay(15);
                 robot.mouseRelease(InputEvent.BUTTON1_MASK);
+                
+//                Toolkit.getDefaultToolkit().
+//                addAWTEventListener(new AWTEventListener() {
+//
+//            public void eventDispatched(AWTEvent event) {
+//                if (event.getClass() == KeyEvent.class) {
+//                    KeyEvent key = (KeyEvent) event;
+//                    if (key.getID() == KeyEvent.KEY_PRESSED) {
+//                        if (key.getKeyCode() == KeyEvent.VK_F11) {
+//                            //处理事件
+//                        }
+//                    }
+//                }
+//            }
+//        }, AWTEvent.KEY_EVENT_MASK);
     }
     
 }
